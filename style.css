@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+/* Header */
+
+header {
+    background: #bb92d6;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+    background-color: #0073e6;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+/* Thanh Thể Loại */
+.category-bar {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.category-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-bar li {
+    display: inline-block;
+}
+
+.category-bar a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #e4e0fb; /* Nền màu tím nhạt */
+    color: #333;
+    border: 1px solid #d2c1f6; /* Viền màu tím đậm */
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.category-bar a:hover {
+    background-color: #c3b4f2; /* Màu nền khi hover */
+    color: #fff;
+    border-color: #b2a3eb; /* Viền khi hover */
+}
+
+/* Nội dung */
+.content {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: rgb(54, 129, 214);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* Search Bar */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 250px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background: #005bb5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.search-bar button:hover {
+    background: #004494;
+}
+/* Banner */
+
+.banner {
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    margin: 10px 0;
+    color: #7407f1;
+}
+
+.banner p {
+    color: #fa0477;
+}
+/* Grid Layout */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.grid-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* Footer */
+
+footer {
+    background: #363636;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+main {
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 40px); /* 4 items per row */
+}
+
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+}
